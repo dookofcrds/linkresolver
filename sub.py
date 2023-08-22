@@ -14,7 +14,7 @@ def process_url(link):
         return link
 
 def main():
-    input_filename = "crowd.txt"
+    input_filename = "your-file.txt" #run the tool in the directory with your *test.com links 
     
     with open(input_filename, "r") as input_file:
         input_links = input_file.read().splitlines()
